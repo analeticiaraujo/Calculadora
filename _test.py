@@ -3,19 +3,19 @@ from calculadora import Calculadora
 c = Calculadora()
 
 def test_soma():
-    assert c.soma(3, 4) == 7
+    assert c.soma(27, 8) == 35
 
 def test_subtracao():
-    assert c.subtracao(3, 4) == -1
+    assert c.subtracao(27, 8) == 19
 
 def test_multiplicacao():
-    assert c.multiplicacao(3, 4) == 12
+    assert c.multiplicacao(27, 8) == 216
 
 def test_divisao():
-    assert c.divisao(8, 4) == 2
+    assert c.divisao(27, 8) == 3.375
 
 def test_exponencial():
-    assert c.exponencial(4, 2) == 16
+    assert c.exponencial(27, 8) == 282429536481
 
 def test_divisaoresto():
-    assert c.divisaoresto(4, 3) == 1
+    assert c.divisaoresto(27, 8) == 3
